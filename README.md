@@ -1,5 +1,5 @@
 # EVENTGEEK
 EVENTGEEK GITHUB
 
-We Make Event Greater
+We Make Event Greater!
 
