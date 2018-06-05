@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Geek</title>
+	<link rel="stylesheet" type="text/css" href="EditProfile.css">
+
+	<style>
+		form
+		{
+			width: 700px;
+			margin: auto;
+			margin-left: 30%;
+			padding: 20px;
+			background: lightgrey;
+			font-size: 20px;
+			font-family: sans-serif;
+		}
+
+		img
+		{
+			width: 100px;
+			height: 80px;
+			padding: 5px;
+		}
+
+		input[type='text']
+		{
+			width: 80%;
+			padding: 5px;
+			font-size: 20px;
+		}
+
+		input[type='date']
+		{
+			width: 80%;
+			padding: 5px;
+			font-size: 18px;
+		}
+
+		input[type='submit']
+		{
+			width: 40%;
+			padding: 5px;
+			font-size: 16px;
+			background-color: darkorange;
+		}
+
+		input[type='email']
+		{
+			width: 60%;
+			padding: 5px;
+			font-size: 16px;
+		}
+
+		
+		/*select
+		{
+			width: 200px;
+			height: 60px;
+			font-size: 16px;
+			padding: 5px;
+			background-color: lightgrey;
+		}
+		*/
+	</style>
+</head>
+<div class="cover" style="opacity: 0.6;"></div>
+<body>
+	<div class="row" style="opacity: 1;">
+		<div class="container">
+			<div id="logo">
+				<ul><a href="#"><img src="iconprofile.png"></a> 
+					<li><a href="EditProfile.html">Edit Profile</a></li>
+					<li><a href="#">Partnership</a></li>
+					<li><a href="#">Log out</a></li>
+				</ul>
+			</div>
+			<div id="menu">
+				<h1><a href="home.html">Event Geek</a></h1>
+
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="events.html">Events</a>
+					<ul>
+						<li><a href="concertprofile.html" id="test">Concert</a>
+							<ul>
+								<li><a href="#">Music</a></li>
+								<li><a href="#">Religion</a></li>
+							</ul>
+						</li>
+						<li><a href="tournamentprofile.html">Tournament</a>
+							<ul>
+								<li><a href="#">E-Sport</a></li>
+								<li><a href="#">Sport</a></li>
+								<li><a href="#">Academic</a></li>
+							</ul>
+						</li>
+						<li><a href="seminarprofile.html">Seminar</a>
+							<ul>
+								<li><a href="#">Academic</a></li>
+								<li><a href="#">Motivation</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact us.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="filter">
+		<h2>Profile</h2> 
+		<p>_________________</p><br>
+		<p1><a href="EditProfile.html">Contact Info</p1></a> <br>
+		<p>_________________</p><br>
+		<p2><a href="Password.html">Password</p2></a>
+		<p>_________________</p><br>
+		<p3><a href="#">Payment Method</p3></a>
+	</div>
+
+	<div class="contactinfo">
+		<form>
+			<h3><u>CONTACT INFO</u></h3> <br>
+			<p4><a>Profile Photo</a></p4><br>
+			<label for="file"><img src="iconprofile.png"></label>
+			<input type="file" name="file1"><br><br>
+
+			Nama Lengkap *
+			<br><br><input type="text" name="nama" required=""><br><br>
+			Tanggal Lahir * 
+			<br><br><input type="date" name="" required=""><br>
+			<!--<select name="month">
+				<option value="month">Month</option>
+				<option value="january">January</option>
+				<option value="february">February</option>
+			</select>
+
+			<select name="days">
+				<option value="days">Days</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+			</select>
+
+			<select name="years">
+				<option value="years">Years</option>
+				<option value="1985">1985</option>
+				<option value="1980">1980</option>
+			</select>-->
+			<br><br>Nomor Handphone *
+			<input type="text" name="hp" required=""><p>Example: 083214786941</p>
+			<br><br>
+			
+			Gender *
+			<br><br>
+			<input type="radio" name="gender" value="male" checked> Male <br>
+			<input type="radio" name="gender" value="female"> Female<br><br><br>
+			Email *
+			<br><br><input type="email" name="email"><br><br><br>
+			<input type="submit" value="Save Changes">
+			
+		</form>
+	</div>
+
+	
+	</body>
+</html>
+
